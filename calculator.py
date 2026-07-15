@@ -9,7 +9,6 @@ def calculate_grade(marks):
         return "C"
     else:
         return "F"
-if __name__ == "__main__":
-    marks = 82
+int marks = int(input("enter your marks"))
 print("Marks:", marks)
 print("Grade:", calculate_grade(marks))
